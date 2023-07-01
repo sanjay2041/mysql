@@ -1,0 +1,10 @@
+create database hicet;
+use hicet;
+create table student (roll int, name varchar(50), dept varchar(10) );
+desc student;
+create table stu1 (roll int primary key,name varchar(50 ), dept varchar(10) );
+desc stu1;
+insert into student value (001,"sanjay","aiml");
+select*from student;
+show tables;
+rename table stu1 to student1;
